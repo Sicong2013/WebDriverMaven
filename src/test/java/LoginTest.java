@@ -18,7 +18,7 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("Email")).sendKeys("trainer@way2automatoin.com");
 		driver.findElement(By.id("Passwd")).sendKeys("sdfdsf");
-		
+		driver.findElement(By.id("SignIn")).click();
 	}
 	
 	public void tearDown()
